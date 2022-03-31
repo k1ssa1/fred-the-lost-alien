@@ -2,14 +2,115 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Canvas Boilerplate | Chris Courses</title>
+    <title>Fred the alien</title>
     <style>
+
+      
       body {
         margin: 0;
+        align-items: center;
+        justify-content: center;
+        height: 100vh ;
+        background-color: rgb(6, 15, 54);
       }
+
+      canvas{
+        margin: 40px 150px 20px;
+        border: 4px solid pink
+      }
+
+      footer {
+        font-family: monospace;
+        background-color: rgb(54, 121, 223);
+        margin-bottom: 15px;
+        color: purple;
+        width: 50%;
+        margin-left: 300px;
+        padding: 10px 20px 10px;
+        border: 5px solid rgb(230, 59, 144);
+        transition: 2s;
+        outline: 5px solid purple;
+      }
+
+      footer:hover{
+        background-color:darkblue;
+        outline: 5px solid purple;
+        border: 5px solid pink;
+        border-radius: 20px;
+        color: white;
+        font-weight: bold
+      }
+
+      footer ul {
+        text-align: center;
+        color: purple;
+      }
+
+      footer ul li a{
+        color: purple;
+      }
+
+      footer ul span{
+        font-size: 15px;
+        font-weight: bold;
+      }
+
+      footer ul span.credits{
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 10px;
+        color: purple
+      }
+
+      header{
+        background-color: purple;
+        text-align: center;
+        padding: 10px 10px 10px;
+        width: 50%;
+        margin-left: 320px;
+        border-radius: 0 0 50% 50%;
+        font-family: monospace;
+        color: pink;
+        border: 2px solid pink;
+        transition: 1.2s;
+        
+      }
+
+      header:hover{
+        background-color: darkblue;
+        color: pink;
+        border: solid 2px purple;
+        box-shadow: 0px 5px 5px lightblue, 0px 10px 5px purple, 0px 15px 10px pink ;
+        font-weight: bold
+      }
+
+  
+
     </style>
   </head>
   <body>
+
+  <header>
+    Hello and welcome my first experience in gamedev !
+  </header>
+    <!-- Add overflow-x: hidden to body if necessary -->
     <canvas></canvas>
+    <footer>
+      <ul>
+        <span>
+           Developer : KISSA SAMI
+        <br>
+        Tutorial of : Chris courses
+        </span>
+        <br>
+        <span class="credits">credits to:</span>
+        <ul>
+          <li>
+            <a href="https://www.flaticon.com/free-icons/alien" title="alien icons">Alien icons created by Smashicons - Flaticon</a>
+          </li>
+        </ul>
+      </ul>
+    </footer>
+    
   </body>
 </html>
